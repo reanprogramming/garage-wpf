@@ -1,10 +1,12 @@
-﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
     <SolidColorBrush x:Key="top_menu_brush" Color="#087717" />
     <SolidColorBrush x:Key="_system_bg_color" Color="#FFDEDEDE" />
     <SolidColorBrush x:Key="_btn_color" Color="#FF31577E" />
 
-    <SolidColorBrush x:Key="title_brush" Color="#FF31577E" />
+      <SolidColorBrush x:Key="form_bg_color" Color="#FFFFFF" />
+
+  <SolidColorBrush x:Key="title_brush" Color="#FF31577E" />
     <SolidColorBrush x:Key="input_brush" Color="#0000A5" />
 
     <SolidColorBrush x:Key="Hint_brush" Color="#FF0000" />

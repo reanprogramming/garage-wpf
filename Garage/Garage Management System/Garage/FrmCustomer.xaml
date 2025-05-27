@@ -1,46 +1,46 @@
-﻿<Page x:Class="Garage_Management_System.Garage.FrmCustomer"
+<Page x:Class="Garage_Management_System.Garage.FrmCustomer"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-      xmlns:local="clr-namespace:Garage_Management_System.Garage"
-       xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
-        Title="Page_request_ticket"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      Title="Regiser Customer Information"
         d:DesignHeight="600"
         d:DesignWidth="580"
         Background="{x:Null}"
         TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+      Loaded="FrmCustomer_Loaded"
         mc:Ignorable="d">
 
-    <Grid VerticalAlignment="Top">
-        <materialDesign:Card
+  <Grid VerticalAlignment="Top">
+    <materialDesign:Card
             Margin="20,10,10,20"
             materialDesign:ShadowAssist.ShadowDepth="Depth1"
-            Background="{StaticResource _system_bg_color}"
+            Background="{StaticResource form_bg_color}"
             UniformCornerRadius="15">
 
-            <materialDesign:DialogHost x:Name="frmregister" CloseOnClickAway="True">
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="620" />
-                    </Grid.RowDefinitions>
+      <materialDesign:DialogHost x:Name="frmregister" CloseOnClickAway="True">
+        <Grid>
+          <Grid.RowDefinitions>
+            <RowDefinition Height="620" />
+          </Grid.RowDefinitions>
 
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="360" />
-                        <ColumnDefinition Width="200" />
-                    </Grid.ColumnDefinitions>
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="360" />
+            <ColumnDefinition Width="200" />
+          </Grid.ColumnDefinitions>
 
 
-                    <Grid
+          <Grid
                         Grid.Row="0"
                         Grid.Column="0"
                         HorizontalAlignment="Left">
-                        <StackPanel
+            <StackPanel
                             Width="350"
                             Margin="10,20,0,0"
                             HorizontalAlignment="Left">
 
-                            <TextBlock
+              <TextBlock
                                 Margin="10,5,0,5"
                                 HorizontalAlignment="Center"
                                 FontFamily="{StaticResource _text_font}"
@@ -48,7 +48,7 @@
                                 FontWeight="SemiBold"
                                 Foreground="{StaticResource top_menu_brush}"
                                 Text="Register Customer " />
-                            <TextBox
+              <TextBox
                                 x:Name="txtcus_id"
                                 Width="300"
                                 Margin="25,10,25.4,0"
@@ -58,8 +58,9 @@
                                 FontFamily="{StaticResource _text_font}"
                                 FontSize="14"
                                 Foreground="{StaticResource txt_color}"
+                                KeyDown="txtid_KeyDown"
                                 Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
-                            <TextBox
+              <TextBox
                                 x:Name="txtName"
                                 Width="300"
                                 Margin="25,10,25.4,0"
@@ -71,7 +72,7 @@
                                 Foreground="{StaticResource txt_color}"
                                 Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
 
-                            <ComboBox
+              <ComboBox
                                 x:Name="cboGender"
                                 Width="300"
                                 Margin="0,20,0,0"
@@ -84,8 +85,21 @@
                                 IsEditable="True"
                                 IsTextSearchEnabled="True"
                                 Style="{StaticResource MaterialDesignFloatingHintComboBox}" />
-                            
-                            <TextBox
+              <ComboBox
+                                x:Name="cboInactive"
+                                Width="300"
+                                Margin="0,20,0,0"
+                                materialDesign:HintAssist.Foreground="{StaticResource Hint_brush}"
+                                materialDesign:HintAssist.Hint="Inactive"
+                                BorderBrush="{StaticResource input_brush}"
+                                FontFamily="{StaticResource _text_font}"
+                                FontSize="14"
+                                Foreground="{StaticResource txt_color}"
+                                IsEditable="True"
+                                IsTextSearchEnabled="True"
+                                Style="{StaticResource MaterialDesignFloatingHintComboBox}" />
+
+              <TextBox
                                 x:Name="txtPhone"
                                 Width="300"
                                 Margin="25,10,25.4,0"
@@ -96,8 +110,8 @@
                                 FontSize="14"
                                 Foreground="{StaticResource txt_color}"
                                 Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
-                            
-                            <TextBox
+
+              <TextBox
                                 x:Name="txtremark"
                                 Width="300"
                                 Height="120"
@@ -113,52 +127,52 @@
                                 TextWrapping="Wrap"
                                 VerticalScrollBarVisibility="Visible" />
 
-                        </StackPanel>
-                    </Grid>
+            </StackPanel>
+          </Grid>
 
 
-                    <Grid
+          <Grid
                         Grid.Row="0"
                         Grid.Column="2"
                         HorizontalAlignment="Left">
-                        <StackPanel
+            <StackPanel
                             Width="180"
                             Margin="0,40,0,0"
                             HorizontalAlignment="Right">
 
-                            <materialDesign:PopupBox
+              <materialDesign:PopupBox
                                 Height="25"
                                 Margin="0,5,5,0"
                                 HorizontalAlignment="Right"
                                 PlacementMode="BottomAndAlignRightEdges"
                                 StaysOpen="False">
-                                <StackPanel>
-                                    <MenuItem
+                <StackPanel>
+                  <MenuItem
                                         x:Name="View_draft"
                                         FontFamily="{StaticResource _Kh_font}"
                                         FontSize="13"
                                         Header="បញ្ជីរក្សាទុក">
-                                        <MenuItem.Icon>
-                                            <materialDesign:PackIcon Kind="Paper" />
-                                        </MenuItem.Icon>
-                                    </MenuItem>
+                    <MenuItem.Icon>
+                      <materialDesign:PackIcon Kind="Paper" />
+                    </MenuItem.Icon>
+                  </MenuItem>
 
-                                    <MenuItem
+                  <MenuItem
                                         x:Name="view_request"
                                         FontFamily="{StaticResource _Kh_font}"
                                         FontSize="13"
                                         Header="បញ្ជីសំណើផ្សេងៗ">
-                                        <MenuItem.Icon>
-                                            <materialDesign:PackIcon Kind="History" />
-                                        </MenuItem.Icon>
-                                    </MenuItem>
+                    <MenuItem.Icon>
+                      <materialDesign:PackIcon Kind="History" />
+                    </MenuItem.Icon>
+                  </MenuItem>
 
 
-                                </StackPanel>
-                            </materialDesign:PopupBox>
+                </StackPanel>
+              </materialDesign:PopupBox>
 
 
-                            <Button
+              <Button
                                 x:Name="btnNew"
                                 Width="150"
                                 Height="45"
@@ -170,8 +184,8 @@
                                 Content="New"
                                 FontSize="14"
                                 Style="{StaticResource MaterialDesignFlatMidBgButton}" Click="btnNew_Click" />
-                            <Button
-                                x:Name="btnsave"
+              <Button
+                                x:Name="btnSave"
                                 Width="150"
                                 Height="45"
                                 Margin="10,10,0,0"
@@ -182,7 +196,7 @@
                                 Content="Save"
                                 FontSize="15"
                                 Style="{StaticResource MaterialDesignFlatMidBgButton}" Click="btnCreate_Click" />
-                            <Button
+              <Button
                                 x:Name="btnEdit"
                                 Width="150"
                                 Height="45"
@@ -195,12 +209,12 @@
                                 FontSize="14"
                                 Style="{StaticResource MaterialDesignFlatMidBgButton}" Click="btnEdit_Click" />
 
-                           
-                        </StackPanel>
-                    </Grid>
 
-                </Grid>
-            </materialDesign:DialogHost>
-        </materialDesign:Card>
-    </Grid>
+            </StackPanel>
+          </Grid>
+
+        </Grid>
+      </materialDesign:DialogHost>
+    </materialDesign:Card>
+  </Grid>
 </Page>

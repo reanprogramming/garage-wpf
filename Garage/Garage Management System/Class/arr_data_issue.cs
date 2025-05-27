@@ -21,13 +21,13 @@ namespace Garage_Management_System.Class
         public string Type_ID { get; set; }
         public string Titile { get; set; }
         public string inputter { get; set; }
+        public string LastUpdate { get; set; }
     }
 
 
-    public static class Issue
+    public static class search
     {
-        public static string Tittleview { get; set; }
-        public static string issue_id { get; set; }
-        public static string issue_action { get; set; }
+        public static string tran_id { get; set; }
+        public static string search_action { get; set; }
     }
 }

@@ -74,3 +74,45 @@ C:\Users\REAN-iT\Desktop\Garage\Garage Management System\obj\Debug\Garage Manage
 C:\Users\REAN-iT\Desktop\Garage\Garage Management System\obj\Debug\Garage Management System.csproj.CopyComplete
 C:\Users\REAN-iT\Desktop\Garage\Garage Management System\obj\Debug\Garage Management System.exe
 C:\Users\REAN-iT\Desktop\Garage\Garage Management System\obj\Debug\Garage Management System.pdb
+C:\Users\JOINCODER\Desktop\Garage\Garage Management System\obj\Debug\Garage Management System.csproj.AssemblyReference.cache
+C:\Users\JOINCODER\Desktop\Garage\Garage Management System\obj\Debug\Garage Management System.csproj.SuggestedBindingRedirects.cache
+C:\Users\JOINCODER\Desktop\Garage\Garage Management System\obj\Debug\FrmSystem\FrmLogin.baml
+C:\Users\JOINCODER\Desktop\Garage\Garage Management System\obj\Debug\Garage\FrmPlateNumber.baml
+C:\Users\JOINCODER\Desktop\Garage\Garage Management System\obj\Debug\Garage\FrmProducts.baml
+C:\Users\JOINCODER\Desktop\Garage\Garage Management System\obj\Debug\ResourceDictionary\ButtonDictionary.baml
+C:\Users\JOINCODER\Desktop\Garage\Garage Management System\obj\Debug\ResourceDictionary\TextboxThemDictionary.baml
+C:\Users\JOINCODER\Desktop\Garage\Garage Management System\obj\Debug\ResourceDictionary\top_menu_Dictionary.baml
+C:\Users\JOINCODER\Desktop\Garage\Garage Management System\obj\Debug\FrmSystem\AboutMe.g.cs
+C:\Users\JOINCODER\Desktop\Garage\Garage Management System\obj\Debug\FrmSystem\FrmLogin.g.cs
+C:\Users\JOINCODER\Desktop\Garage\Garage Management System\obj\Debug\FrmSystem\FrmSystemUpdate.g.cs
+C:\Users\JOINCODER\Desktop\Garage\Garage Management System\obj\Debug\Garage\FrmCustomer.g.cs
+C:\Users\JOINCODER\Desktop\Garage\Garage Management System\obj\Debug\Garage\FrmPlateNumber.g.cs
+C:\Users\JOINCODER\Desktop\Garage\Garage Management System\obj\Debug\Garage\FrmProducts.g.cs
+C:\Users\JOINCODER\Desktop\Garage\Garage Management System\obj\Debug\MainWindow.g.cs
+C:\Users\JOINCODER\Desktop\Garage\Garage Management System\obj\Debug\App.g.cs
+C:\Users\JOINCODER\Desktop\Garage\Garage Management System\obj\Debug\Garage Management System_MarkupCompile.cache
+C:\Users\JOINCODER\Desktop\Garage\Garage Management System\obj\Debug\Garage Management System_MarkupCompile.lref
+C:\Users\JOINCODER\Desktop\Garage\Garage Management System\bin\Debug\Garage Management System.exe.config
+C:\Users\JOINCODER\Desktop\Garage\Garage Management System\bin\Debug\Garage Management System.exe
+C:\Users\JOINCODER\Desktop\Garage\Garage Management System\bin\Debug\Garage Management System.pdb
+C:\Users\JOINCODER\Desktop\Garage\Garage Management System\bin\Debug\MaterialDesignColors.dll
+C:\Users\JOINCODER\Desktop\Garage\Garage Management System\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\JOINCODER\Desktop\Garage\Garage Management System\bin\Debug\Newtonsoft.Json.dll
+C:\Users\JOINCODER\Desktop\Garage\Garage Management System\bin\Debug\MaterialDesignColors.pdb
+C:\Users\JOINCODER\Desktop\Garage\Garage Management System\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\JOINCODER\Desktop\Garage\Garage Management System\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\JOINCODER\Desktop\Garage\Garage Management System\bin\Debug\Newtonsoft.Json.xml
+C:\Users\JOINCODER\Desktop\Garage\Garage Management System\obj\Debug\Garage\FrmSearchPlateNumber.baml
+C:\Users\JOINCODER\Desktop\Garage\Garage Management System\obj\Debug\Garage\FrmSearchPlateNumber.g.cs
+C:\Users\JOINCODER\Desktop\Garage\Garage Management System\obj\Debug\App.baml
+C:\Users\JOINCODER\Desktop\Garage\Garage Management System\obj\Debug\FrmSystem\AboutMe.baml
+C:\Users\JOINCODER\Desktop\Garage\Garage Management System\obj\Debug\FrmSystem\FrmSystemUpdate.baml
+C:\Users\JOINCODER\Desktop\Garage\Garage Management System\obj\Debug\Garage\FrmCustomer.baml
+C:\Users\JOINCODER\Desktop\Garage\Garage Management System\obj\Debug\MainWindow.baml
+C:\Users\JOINCODER\Desktop\Garage\Garage Management System\obj\Debug\Garage Management System.g.resources
+C:\Users\JOINCODER\Desktop\Garage\Garage Management System\obj\Debug\Garage_Management_System.Properties.Resources.resources
+C:\Users\JOINCODER\Desktop\Garage\Garage Management System\obj\Debug\Garage Management System.csproj.GenerateResource.cache
+C:\Users\JOINCODER\Desktop\Garage\Garage Management System\obj\Debug\Garage Management System.csproj.CoreCompileInputs.cache
+C:\Users\JOINCODER\Desktop\Garage\Garage Management System\obj\Debug\Garage Management System.csproj.CopyComplete
+C:\Users\JOINCODER\Desktop\Garage\Garage Management System\obj\Debug\Garage Management System.exe
+C:\Users\JOINCODER\Desktop\Garage\Garage Management System\obj\Debug\Garage Management System.pdb
