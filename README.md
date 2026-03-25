@@ -1,23 +1,55 @@
-[# 🛒 POS System (Laravel)
+# 👋 Hi, I'm Map (Rean Programming)
 
-## 📌 Features
-- Product management
-- Invoice system
-- Reports
+🎯 Web Developer | API Developer | Trainer  
+🇰🇭 Helping Cambodian students learn programming  
+🌍 Building global content in English  
 
-## ⚙️ Installation
-1. Clone project
-2. Run `composer install`
-3. Setup `.env`
-4. Run `php artisan serve`
+---
 
-## 🔐 Login
-- Email: admin@gmail.com
-- Password: 123456
+## 🌐 Connect with Me
 
-## 📷 Screenshots
-(Add images here)
+- 💻 GitHub: https://github.com/reanprogramming  
+- ▶️ YouTube (Khmer): https://www.youtube.com/@reanprogramming  
+- 🌍 YouTube (English): https://www.youtube.com/@joincoder  
+- 🎵 TikTok: https://www.tiktok.com/@reandocumentary  
+- 📢 Telegram: https://t.me/reandocumentary  
+- 📘 Facebook: https://www.facebook.com/reanprogramming  
 
-## 📥 Download
-(Or link to Telegram)
-](https://t.me/reandocumentary)
+---
+
+## 🚀 What I Do
+
+- 🛠 Build real-world projects (POS, Management Systems)
+- 🎥 Create programming tutorials (Khmer & English)
+- 📦 Share source code for free
+- 👨‍🏫 Teach step-by-step for beginners
+
+---
+
+## 💡 My Mission
+
+I want to:
+- Help students in Cambodia 🇰🇭
+- Share knowledge to the world 🌍
+- Build practical skills for real jobs 💼
+
+---
+
+## ⭐ Featured Projects
+
+- 🛒 POS System (Laravel + PHP)
+- 🏥 Hospital Management System
+- 🚗 Grass Car Store (Ongoing)
+
+---
+
+## ❤️ Support Me
+
+If you like my content:
+- ⭐ Star my repositories
+- 📢 Share with your friends
+- ▶️ Subscribe to my YouTube channels
+
+---
+
+🔥 *"Learn. Build. Share."*
