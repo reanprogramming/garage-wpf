@@ -1,4 +1,4 @@
-# 🛒 POS System (Laravel)
+[# 🛒 POS System (Laravel)
 
 ## 📌 Features
 - Product management
@@ -20,3 +20,4 @@
 
 ## 📥 Download
 (Or link to Telegram)
+](https://t.me/reandocumentary)
